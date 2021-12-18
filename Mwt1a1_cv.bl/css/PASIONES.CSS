@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+#titulo{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;   
+      margin: 10px;
+    }
+
+
+body
+    {
+      background-color: black;
+      color: rgb(190, 205, 50);
+    }
+
+ main
+    {
+      color: aliceblue;
+      padding: 30px;
+    }
+
+ footer > p{
+      text-align: right;
+      color: rgba(15, 15, 153, 0.644);
+    }

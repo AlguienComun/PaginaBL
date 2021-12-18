@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 1px;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+  #titulo{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; 
+      margin: 10px 
+    }
+    
+body{    
+      background-color: black;
+      color: rgb(190, 205, 50);
+    }
+
+main p{
+    color: whitesmoke;
+    padding: 30px;
+    }
+
+main div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    }
+
+  img{
+    width: 100%;
+    transition-duration: all is;
+    animation:5s aparecer infinite;
+  }
+
+@keyframes aparecer{
+from{
+  transform: scale(0.2);
+}to{
+  transform: scale(1);
+}
+
+}
+
+  footer > p{
+      text-align: right;
+      color: rgba(15, 15, 153, 0.644);
+    }

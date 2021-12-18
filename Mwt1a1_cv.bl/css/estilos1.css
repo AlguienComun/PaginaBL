@@ -1,0 +1,109 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+text{
+  height: 10px;
+}
+hr
+{
+  color: blueviolet;
+}
+
+body{
+  background-color: black;
+  color: yellow;
+}
+header{
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  color: azure;
+  margin: 10px;
+
+}
+
+header img{
+  width: 100%;
+  box-shadow: 5px 5px 5px rgb(233, 134, 150);
+  transform: scale (1.1);
+  border-radius: 100px;
+
+}
+
+#header-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+    padding: 30px;
+    color: yellow;
+
+}
+#d1 a{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
+#d1 a:hover{
+  color:rgb(112, 22, 100);
+}
+
+
+#d1 ul{
+  list-style: none;
+}
+
+#d2{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+
+}
+#d2 a{
+  background-color: rgb(207, 57, 140);
+  color: aliceblue;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgb(233, 134, 150);
+  
+}
+
+#d2 a:hover {
+  transform: scaleX(1.5);
+    
+  }
+
+
+footer > p{
+  text-align: right;
+  color: rgba(131, 12, 125, 0.644);
+}
+
+#McAgua p{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 4rem;
+  color: rgba(168, 119, 168, 0.185);
+  text-align: justify;
+}
+
+main{
+  position: relative;
+}
+
+#McAgua{
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+#conte-1{
+  position: absolute;
+  top: 0px;
+}

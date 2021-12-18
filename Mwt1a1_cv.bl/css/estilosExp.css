@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+     margin: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+#titulo{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; 
+      margin: 10px;  
+    }
+
+ body{    
+      background-color: black;
+      color: rgb(190, 205, 50);
+     }
+
+ main{
+      color: whitesmoke;
+      padding: 30px;
+      display: grid;
+      grid-template-columns: 4fr 1fr;
+        
+      }
+
+ footer  img{
+        margin: 20px;
+        width: 10%;
+          
+      }
+footer > p{
+        text-align: right;
+        color: rgba(15, 15, 153, 0.644);
+      }
+      
